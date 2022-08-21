@@ -1,0 +1,5 @@
+number = float(input("Enter the number: "))
+number_two = ((number// 10) % 10)
+number_five = ((number// 10000) % 10)
+sum = (number_two + number_five)
+print("The sum of the second and fifth digits is= ",sum)
